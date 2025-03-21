@@ -11,7 +11,7 @@ var DB *sql.DB
 
 func InitDB() {
 	var err error
-	db, err := sql.Open("mysql", "root:@/RMT9_P1")
+	db, err := sql.Open("mysql", "root:nwFXIqiZaGRcoGxjsZQxhnuYndueucwZ@tcp(turntable.proxy.rlwy.net:32254)/railway")
 	if err != nil {
 		fmt.Println(err)
 	}
